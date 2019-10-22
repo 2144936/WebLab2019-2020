@@ -1,0 +1,26 @@
+3 main feautes to be simulate:
+
+1. Dashboard
+	- Use conversations and notifications to collaborate on tasks
+2. Share/create
+	- Share lists and edit tasks with others
+	- Add comments, files, notes, and reminders to tasks.
+3. Login/ signup
+	- Turn email into tasks by mailing them to Wunderlist
+
+
+TASK:
+
+Jeff and Philip
+	- Please colaborate.
+	- HTML and CSS.
+Bangiacan and Chass (with Cyrell)
+	- JAVASCRIPT
+		- alamin kung paano paganahin yung 3 MAIN FEAUTURES.
+
+Cyrell and MAQ
+	- CMS
+	- WORDPRESS
+
+
+GOODLUCK AND LETS DO THIS :D
