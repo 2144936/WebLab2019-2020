@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
-	<title>WunderList: A wonderful TO DO LIST</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet/styles.css">
-	<script type="text/javascript" src="js/main.js"></script>
+	<meta charset="UTF-8">
+	<meta name= "viewport" content="width=device-width, user-scalable=1.0, maximum">
+	<meta http-equiv="X-UA-Compatible" content="ei-edge">
+	<title>WunderList: TODO List</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
 </head>
-
 <body>
-	<h1>WunderList App</h1>
-	<form id = "todoForm">
-		<input id = "todoInput">
-		<button type="button" onclick = "todoList()">Add</button>
-	</form>
-	<ul id="todoList">
-	</ul>
 
+<div id="header" class="header">
+  <h2 style="margin:5px">WunderList: a TO-DO List</h2>
+  <input type="text" id="myInput" placeholder="Add a TODO ...">
+  <span onclick="newElement()" class="addBtn">add</span>
+</div>
+
+<ul id="myUL">
+  
+</ul>
+<script type="text/javascript" src="js/js.js"></script>
 </body>
+</html>
