@@ -8,9 +8,6 @@
         <title>Wunderlist</title>
     </head>
 <body>
-
-  
-
           <div id="inputContainer">
             <input type="text" id="taskInput" placeholder="add TO-DO">
           </div>
@@ -18,12 +15,23 @@
             <ul id="taskList">
             </ul>
           </div>
+    
+<script src="js/upup.min.js"></script>
+<script src="js/jScript.js"></script>
 <script>
-
+    UpUp.start({
+    'cache-version': 'v2',
+    'content-url': 'index.html',
+    'assets': [
+        'style/style.css',
+        'img/back.jpg',
+        'img/logo.png'
+    ],
+    
+    'service-worker-url': 'js/upup.sw.min.js'
+})
 </script>
-
-<script src="js/jScript.js">
-</script>
+<!--<script src="js/sw.js"></script>-->
 
 
 </body>
